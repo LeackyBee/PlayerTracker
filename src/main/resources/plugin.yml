@@ -1,0 +1,14 @@
+name: PlayerTracker
+version: '${project.version}'
+main: io.github.leackybee.playertracker.PlayerTracker
+api-version: 1.19
+authors: [ LeackyBee ]
+description: A plugin that adds flexible player tracking
+
+commands:
+  track:
+    description: gives the player a compass that tracks the target
+    usage: "Usage: /track <target>"
+  untrack:
+    description: undoes `/trackplayer`
+    usage: "Usage: /untrack"
